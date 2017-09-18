@@ -23,6 +23,8 @@
     <option name="SELECTED_TEARLINE_COLOR" value="657b83" />
     <option name="SELECTION_BACKGROUND" value="657b83" />
     <option name="SELECTION_FOREGROUND" value="2b36" />
+    <option name="SEPARATOR_ABOVE_COLOR" value="586e75" />
+    <option name="SEPARATOR_BELOW_COLOR" value="586e75" />
     <option name="TEARLINE_COLOR" value="586e75" />
     <option name="WHITESPACES" value="586e75" />
   </colors>
@@ -828,6 +830,11 @@
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FOREGROUND" value="d33682" />
+      </value>
+    </option>
+    <option name="DEFAULT_STATIC_METHOD">
+     <value>
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -3226,7 +3233,9 @@
       </value>
     </option>
     <option name="STATIC_METHOD_ATTRIBUTES">
-      <value />
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
     </option>
     <option name="STRUCT_LIKE">
       <value>
