@@ -23,6 +23,8 @@
     <option name="WHITESPACES" value="93a1a1" />
   </colors>
   <attributes>
+    <option name="EDITOR_FONT_SIZE" value="14" />
+    <option name="EDITOR_FONT_NAME" value="Input" />
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="859900" />
@@ -774,6 +776,11 @@
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="6c71c4" />
+      </value>
+    </option>
+    <option name="DEFAULT_INTERFACE_NAME">
+      <value>
+        <option name="FOREGROUND" value="839496" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
