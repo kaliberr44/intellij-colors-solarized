@@ -20,9 +20,6 @@ function createDarculaVersion {
   # Use Darcula parent theme
   sed -i'.orig' -e 's/\(parent_scheme\)="[^"]*"/\1="Darcula"/' "${2}"
 
-  # Fix static methods
-  sed -i'.orig' -e 's/<\/attributes>/<option name="DEFAULT_STATIC_METHOD"><value><option name="FONT_TYPE" value="2" \/><\/value><\/option><\/attributes>/' "${2}"
-
   # Special handling for Solarized Dark
   if [[ ${2} =~ .*Dark.* ]]
   then
